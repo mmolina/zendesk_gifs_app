@@ -1,0 +1,10 @@
+<header>
+  <span class="logo"/>
+  <h3>{{setting "name"}}</h3>
+</header>
+<input type="text" name="search" id="search" placeholder="Search your gif!">
+<br /><br />
+<section data-main/>
+<div id="help">
+{{t "help"}}
+</div>

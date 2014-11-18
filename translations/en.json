@@ -1,0 +1,38 @@
+{
+  "app": {
+    "package": "app_name",
+    "description": {
+      "value": "Search and insert animated gifs on your comments.",
+      "title": "app description"
+    },
+    "name": {
+      "value": ".gifs",
+      "title": "app name"
+    }
+  },
+
+  "search": {
+    "search": {
+      "value": "search",
+      "title": "search"
+    },
+    "doing": {
+      "value": "Searching",
+      "title": "search in progress"
+    },
+    "done": {
+      "value": "Search finished",
+      "title": "fetch success"
+    },
+    "fail": {
+      "value": "failed to search/find any images",
+      "title": "fetch failure"
+    }
+  },
+
+  "help": {
+    /*"value": "To insert an animated gif type ![gif keyword], being keyword the word or words to search for.",*/
+    "value": "Search your gif and click on it to insert it into your comment.",
+    "title": "how to insert gifs"
+  }
+}
