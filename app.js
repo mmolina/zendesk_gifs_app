@@ -29,6 +29,7 @@
       var q = this.$('#search').val();
       if(q) {
         var self = this;
+        this.switchTo('loading_screen');
         this.ajax('searchGifs', q)
             .done(function(data) {
               if(data.responseData.results) {
